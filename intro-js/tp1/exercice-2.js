@@ -2,7 +2,6 @@ function fibonaci(el1, el2) {
     let f;
     do{
         f = parseInt(prompt("Entrez un entier positif"));
-        console.log(typeof f);
     }
     while(typeof f !== "number" || f<0);
     document.write("1er element: " + el1 + "</br>");
