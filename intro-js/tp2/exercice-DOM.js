@@ -15,6 +15,8 @@ function initialisation(){
     console.log(rand);
 }
 
+// Fonction pour tester la valeur de l'entrée utilisateur et soit envoyer un message d'erreur soit continuer
+// Si l'entrée en bonne la fonction gagner() sera lancée
 function testInput(){
     choix.value = parseInt(choix.value);
     console.log(choix.value)
@@ -28,6 +30,7 @@ function testInput(){
     }
 }
 
+// N'aura lieu que si l'utilisateur saisie une entrée valide. Test sa réponse et lui annonce le résultat
 function gagner(){
     
     if (rand==choix.value){
@@ -46,5 +49,6 @@ function gagner(){
     }   
 }
 
+// Action testInput liée à lorsque l'on click sur le bouton
 valChoix.onclick = testInput;
 
