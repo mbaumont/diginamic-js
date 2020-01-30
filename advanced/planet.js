@@ -13,6 +13,5 @@ class Planet{
         return tabPop.reduce((acc,value)=>parseInt(acc)+parseInt(value),0);
     }
 }
-
 //Export du module 
 module.exports.Planet = Planet;
