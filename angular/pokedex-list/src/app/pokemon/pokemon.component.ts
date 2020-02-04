@@ -8,10 +8,9 @@ import { PokemonModel } from './pokemon.model';
   styleUrls: ['./pokemon.component.css']
 })
 export class PokemonComponent implements OnInit {
+  //On fait le lien avec le template Pokedex
   @Input() pokemon: PokemonModel;
-
   constructor() { }
-
   ngOnInit() {
 
   }

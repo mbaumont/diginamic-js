@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { PokedexComponent } from './pokedex/pokedex.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { FooterComponent } from './footer/footer.component';
+import { TruncatePipe } from './truncate.pipe';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     PokedexComponent,
     PokemonComponent,
-    FooterComponent
+    FooterComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule
